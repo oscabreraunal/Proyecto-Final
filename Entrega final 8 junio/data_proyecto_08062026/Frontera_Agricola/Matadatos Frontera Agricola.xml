@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>fa3d1ffe-2a4e-45da-b40a-28da1d39f74d</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="spa"
+                        codeSpace="ISO639-2"/>
+  </gmd:language>
+  <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                               codeListValue="utf8"
+                               codeSpace="ISOTC211/19115"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset"
+                        codeSpace="ISOTC211/19115"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                     codeListValue="CO"
+                                     codeSpace="ISO3166-1"/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="author"
+                             codeSpace="ISOTC211/19115"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>110311</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                     codeListValue="CO"
+                                     codeSpace="ISO3166-1"/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="pointOfContact"
+                             codeSpace="ISOTC211/19115"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:DateTime>2025-07-09T16:34:41</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>2007</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation>
+         <gmd:topologyLevel>
+            <gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode"
+                                      codeListValue="geometryOnly"
+                                      codeSpace="ISOTC211/19115"/>
+         </gmd:topologyLevel>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"
+                                                  codeListValue="composite"
+                                                  codeSpace="ISOTC211/19115"/>
+               </gmd:geometricObjectType>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>9377</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>EPSG</gco:CharacterString>
+               </gmd:codeSpace>
+               <gmd:version>
+                  <gco:CharacterString>9.8.12(12.8.0)</gco:CharacterString>
+               </gmd:version>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Identificación general de la frontera agrícola en Colombia, a escala 1:100.000. Junio 2025</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2026-03-22</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation"
+                                             codeSpace="ISOTC211/19115"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2025-05-29</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="publication"
+                                             codeSpace="ISOTC211/19115"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2025-05-29</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision"
+                                             codeSpace="ISOTC211/19115"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110311</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                                 codeListValue="CO"
+                                                 codeSpace="ISO3166-1"/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="author"
+                                         codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110311</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                                 codeListValue="CO"
+                                                 codeSpace="ISO3166-1"/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="pointOfContact"
+                                         codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:presentationForm>
+                  <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="mapDigital"
+                                               codeSpace="ISOTC211/19115"/>
+               </gmd:presentationForm>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>El mapa de la Frontera Agrícola es el límite del suelo rural donde se permiten y promueven las actividades agropecuarias y reconoce aquellas áreas en las que, por consideraciones legales, políticas y técnicas, están restringidas. (adaptada de la Resolución 261/2018). (MADR, 2018). 
+
+Las actividades agropecuarias comprenden la agrícola, la pecuaria, la acuícola, la pesquera y la forestal.
+
+Capa generada en el sistema MAGNA-SIRGAS 2018 Origen Nacional - 9377.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>Identificar el límite del suelo rural que separa las áreas donde se desarrollan las actividades agropecuarias de las de especial importancia ecológica y las demás áreas en las que las actividades agropecuarias están excluidas por mandato de la ley. Además, dar cumplimiento al artículo 4 de la Ley 1776 del 2016 y al punto 1.1.10 del acuerdo final de paz en relación con la definición de la frontera agrícola como insumo para el plan de zonificación ambiental para el cierre de la frontera agrícola.
+Capa generada en el sistema MAGNA-SIRGAS 2018 Origen Nacional - 9377.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>Agencia Nacional de Tierras (ANT). (2022). Derechos de uso otorgados en áreas de Ley segunda.
+Corporación Autónoma Regional De Boyacá (CORPOBOYACÁ). (2011). Plan general de ordenamiento y manejo forestal en la jurisdicción de Corpoboyacá. 
+Corporación Autónoma Regional De Boyacá (CORPOBOYACÁ). (2019). Reservas Forestales Protectoras y Distritos Regionales de Manejo Integrado de la jurisdicción de CORPOBOYACÁ.
+Corporación Autónoma Regional de Caldas (CORPOCALDAS). (2019). Áreas Nacionales Protegidas Declaradas en la jurisdicción de CORPOCALDAS.
+Corporación Autónoma Regional de Chivor (CORPOCHIVOR). (2021). Áreas protegidas y de importancia estratégica en la jurisdicción de CORPOCHIVOR.
+Corporación Autónoma Regional de Cundinamarca (CAR). (2022). Áreas Protegidas y Planes de Manejo en jurisdicción de la CAR.
+Corporación Autónoma Regional de la Frontera Norte (CORPONOR). (2022). Determinantes ambientales en la jurisdicción de CORPONOR.
+Corporación Autónoma Regional de la Guajira (CORPOGUAJIRA). (2019). Determinantes ambientales en la jurisdicción de CORPOGUAJIRA.
+Corporación Autónoma Regional de la Orinoquía (CORPORINOQUIA). (2018). Reservas forestales protectoras en jurisdicción de CORPORINOQUIA.
+Corporación Autónoma Regional de la Orinoquía (CORPORINOQUIA). (2020). Distritos de Manejo Integrado en jurisdicción de CORPORINOQUIA.
+Corporación Autónoma Regional de los Valles del Sinú y San Jorge (CVS). (2018). Plan General de Ordenación Forestal PGOF de la CVS.
+Corporación Autónoma Regional de los Valles del Sinú y San Jorge (CVS). (2022). Áreas protegidas en la jurisdicción de la CVS.
+Corporación Autónoma Regional de Nariño (CORPONARIÑO). (2020). Parques Naturales Regionales y Distritos Regionales de Manejo Integrado en jurisdicción de CORPONARIÑO.
+Corporación Autónoma Regional de Risaralda (CARDER). (2021). Áreas Protegidas y Planes de Manejo 2021-2026 del departamento de Risaralda.
+Corporación Autónoma Regional de Santander (CAS). (2019). Plan General de la Ordenación Forestal de la CAS.
+Corporación Autónoma Regional de Santander (CAS). (2022). Áreas protegidas en la jurisdicción de la CAS.
+Corporación Autónoma Regional de Sucre (CARSUCRE). (2014). Distritos Regionales de Manejo Integrado DRMI en la jurisdicción de CARSUCRE.
+Corporación Autónoma Regional de Sucre (CARSUCRE). (2019). Plan General de Ordenación Forestal.
+Corporación Autónoma Regional de Sucre (CARSUCRE). (2022). Determinantes ambientales en jurisdicción de CARSUCRE.
+Corporación Autónoma Regional Del Alto Magdalena (CAM). (2016). Distrito Regional de manejo integrado la Tatacoa.
+Corporación Autónoma Regional Del Alto Magdalena (CAM). (2018). Plan de Ordenación Forestal - POF del departamento del Huila. 
+Corporación Autónoma Regional Del Alto Magdalena (CAM). (2019). Distrito Regional de Manejo Integrado Cerro Banderas – Ojo Blanco.
+Corporación Autónoma Regional Del Alto Magdalena (CAM). (2019). Parque Natural Regional y Distrito Regional de Manejo Integrado Serranía de Minas.
+Corporación Autónoma Regional Del Alto Magdalena (CAM). (2020). Plan de Manejo Ambiental Distrito Regional de Manejo Integrado Serranía de Peñas Blancas.
+Corporación Autónoma Regional Del Atlántico (CRA). (2018). Plan de Ordenamiento Forestal CRA.
+Corporación Autónoma Regional Del Atlántico (CRA). (2019). Distritos de Manejo Integrado y Distritos Regionales de Manejo Integrado en jurisdicción de la CRA.
+Corporación Autónoma Regional Del Canal Del Dique (CARDIQUE). (2018). Plan de ordenación forestal para la Corporación Autónoma Regional del Canal del Dique - Cardique.
+Corporación Autónoma Regional del Cauca (CRC). (2022). Reservas forestales en la jurisdicción de la CRC.
+Corporación Autónoma Regional del Cesar (CORPOCESAR). (2019). Distrito Regional de Manejo Integrado Complejo Cenagoso de Zapatosa CCCZ.
+Corporación Autónoma Regional del Cesar (CORPOCESAR). (2019). Reservas Forestales Protectoras en la jurisdicción de CORPOCESAR.
+Corporación Autónoma Regional del Guavio (CORPOGUAVIO). (2017). Plan de Ordenación Forestal para cada una de las subcuencas en la jurisdicción de CORPOGUAVIO, Río Guayuriba, Río Bogotá, Río Guatiquía y Río Upía. "
+Corporación Autónoma Regional del Guavio (CORPOGUAVIO). (2020). Distrito Regional de Manejo Integrado DRMI Chinchorro.
+Corporación Autónoma Regional del Guavio (CORPOGUAVIO). (2022). Reservas Forestales en la jurisdicción de CORPOGUAVIO.
+Corporación Autónoma Regional del Quindío (CRQ). (2011). Distrito de Conservación de Suelos Barbas Bremen.
+Corporación Autónoma Regional del Quindío (CRQ). (2011). Distrito Regional de Manejo Integrado de la Cuenca Alta del Río Quindío de Salento y páramos y bosques altoandinos de Génova.
+Corporación Autónoma Regional del Quindío (CRQ). (2015). Distrito Regional de Manejo Integrado Chilí Bosque Alto Andino Pijao.
+Corporación Autónoma Regional del Sur de Bolívar (CSB). (2021). Plan de ordenación forestal de la jurisdicción de la CSB.
+Corporación Autónoma Regional del Tolima (CORTOLIMA). (2016). Distrito de Conservación Suelos De Los Cerros del Norte de Ibagué.
+Corporación Autónoma Regional del Valle del Cauca (CVC). (2020). Reservas Forestales Protectoras, Distritos Regionales de Manejo Integrado y Distritos de Conservación de Suelos de la jurisdicción de la CVC.
+Corporación Autónoma Regional para el Desarrollo Sostenible del Chocó (CODECHOCÓ). (2021). Distritos Regionales de Manejo Integrado en jurisdicción de Codechocó.
+Corporación Autónoma Regional para la Defensa de la Meseta de Bucaramanga (CDMB). (2019). Plan General de Ordenación Forestal.
+Corporación Autónoma Regional para la Defensa de la Meseta de Bucaramanga (CDMB). (2022). Áreas protegidas en jurisdicción de la CDMB.
+Corporación Autónoma Regional Rionegro Nare (CORNARE). (2021). Áreas de protección ambiental en la jurisdicción de CORNARE.
+Corporación para el Desarrollo Sostenible de la Mojana y el San Jorge (CORPOMOJANA). (2021). Áreas protegidas en la jurisdicción de CORPOMOJANA.
+Corporación para el desarrollo sostenible del Archipiélago de San Andrés, Providencia y Santa Catalina (CORALINA). (2007). Área de Reserva forestal protectora de San Andrés Isla.
+Corporación para el desarrollo sostenible del Archipiélago de San Andrés, Providencia y Santa Catalina (CORALINA). (2019). Distrito de Manejo Integrado Área Marina Protegida de la Reserva de Biosfera Seaflower.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2015). Distrito Regional de Manejo Integrado DRMI Carimagua.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2015). Formulación del Plan de Ordenación Forestal (POF) para la cuenca del río Planas, en el municipio de Puerto Gaitán, departamento del Meta. esc. 1:25.000.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2015). Formulación del Plan de Ordenación Forestal (POF) para la cuenca del río Tillavá, en el municipio de Puerto Gaitán, departamento del Meta. esc. 1:25.000.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2015). Plan integral de Manejo del Distrito de Manejo Integral-DMI Macarena Norte.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2015). Plan Integral de Manejo para el sector del interfluvio Río Losada-Caño Perdido. esc. 1:100.000.
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2018). Áreas protegidas en la jurisdicción de CORMACARENA. 
+Corporación para el desarrollo sostenible del área de manejo especial La Macarena (CORMACARENA). (2020). Área de manejo especial de la macarena - AMEM.
+Corporación para el Desarrollo Sostenible del Norte y el Oriente Amazónico (CDA). (2018). Determinantes ambientales en jurisdicción de la CDA.
+Corporación para el desarrollo sostenible del sur de la Amazonia (CORPOAMAZONIA). (2020). Determinantes ambientales para los municipios de Mocoa y San Francisco en Putumayo.
+Corporación para el Desarrollo Sostenible del Urabá (CORPOURABÁ). (2019). Áreas protegidas en jurisdicción de CORPOURABA.
+Corporación para el Desarrollo Sostenible del Urabá (CORPOURABÁ). (2019). Distrito regional de conservación de suelos ubicado en el municipio de Peque, departamento de Antioquia.
+Corporación para el Desarrollo Sostenible del Urabá (CORPOURABÁ). (2019). Distrito regional de manejo integrado Serranía de Abibe.
+Departamento Administrativo Nacional de Estadística (DANE). (2020). Marco Geoestadístico Nacional; Centros poblados.
+Federación Nacional de Cafeteros (FNC). (2019). Lotes cafeteros.
+Federación Nacional de Cultivadores de Palma de Aceite (Fedepalma). (2018). Lotes de palma de aceite.
+Instituto Alexander von Humboldt (IAVH). (2012). Límites de los complejos de Páramos de Colombia.
+Instituto Amazónico De Investigaciones Científicas (Sinchi). (2020). Coberturas de la tierra de la región amazónica 2020. esc. 1:100.000
+Instituto Colombiano de Antropología e Historia (ICANH). (2022). Áreas arqueológicas protegidas declaradas.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2014). Mapa nacional de coberturas de la tierra: metodología Corine Land Cover adaptada para Colombia, imágenes 2010-2012; escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2019). Mapa de bosque no bosque Colombia (área continental). Escala fina Landsat. 2010, V5.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2021). Coberturas de la Tierra para el año 2018, a escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam). (2023). Deforestación asociada a cultivos de palma - Línea base 2011-2017.
+Instituto Geográfico Agustín Codazzi (IGAC). (2024). Cartografía básica, escala 1:100.000.
+Ministerio de Ambiente y Desarrollo Sostenible (Minambiente). (2019). Delimitación de páramos a nivel nacional.
+Ministerio de Ambiente y Desarrollo Sostenible (MinAmbiente). (2022). Actualización de las Zonificaciones a las Reservas Forestales de la ley 2da. 
+Ministerio de Ambiente y Desarrollo Sostenible (MinAmbiente). (2022). Mapa de sustracciones a las reservas forestales de la ley 2ª de 1959. esc. 1:100.000.
+Unidad Administrativa Especial del Sistema de Parques Nacionales Naturales (UAESPNN). (2023). Registro único nacional de las áreas protegidas – Runap.
+Unidad de Planificación Rural Agropecuaria (UPRA). (2023). Áreas que probablemente presentan agricultura familiar.</gco:CharacterString>
+         </gmd:credit>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode"
+                                 codeListValue="completed"
+                                 codeSpace="ISOTC211/19115"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>110311</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                           codeListValue="CO"
+                                           codeSpace="ISO3166-1"/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="author"
+                                   codeSpace="ISOTC211/19115"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>110311</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                           codeListValue="CO"
+                                           codeSpace="ISO3166-1"/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact"
+                                   codeSpace="ISOTC211/19115"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="notPlanned"
+                                                   codeSpace="ISOTC211/19115"/>
+               </gmd:maintenanceAndUpdateFrequency>
+               <gmd:contact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110311</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                                 codeListValue="CO"
+                                                 codeSpace="ISO3166-1"/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="author"
+                                         codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:contact>
+               <gmd:contact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                                 </gmd:voice>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>110311</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                                 codeListValue="CO"
+                                                 codeSpace="ISO3166-1"/>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="pointOfContact"
+                                         codeSpace="ISOTC211/19115"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:contact>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>https://catalogometadatos.upra.gov.co/uprageonet/srv/api/records/fa3d1ffe-2a4e-45da-b40a-28da1d39f74d/attachments/Frontera_Agricola_Jun2025.jpg</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>Frontera_Agricola_Jun2025.jpg</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Downloadable Data</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>frontera</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>agrícola</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>pecuario</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>agropecuario</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>aptitud</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>planificación</gco:CharacterString>
+               </gmd:keyword>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>De acuerdo con el análisis jurídico realizado por la entidad, este producto es público para cualquier usuario y no posee información clasificada o reservada, permitiendo su uso sin ir en contravía de la normatividad legal vigente, lo anterior en virtud de lo dispuesto en la Ley 1712 de 2014. Para su uso se debe citar la fuente UPRA, esto en observancia de la normatividad de Derechos de Autor. Clasificación de la información: Información Pública de uso externo.</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+                                                  codeListValue="vector"
+                                                  codeSpace="ISOTC211/19115"/>
+         </gmd:spatialRepresentationType>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="spa"
+                              codeSpace="ISO639-2"/>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+                                     codeListValue="utf8"
+                                     codeSpace="ISOTC211/19115"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</gco:CharacterString>
+         </gmd:environmentDescription>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-81.766475</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-66.687369</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-4.214097</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>13.527161</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:che="http://www.geocat.ch/2008/che">
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>ArcGis Pro 3.4</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://sipra.upra.gov.co/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gmx:MimeFileType type="application/octet-stream">Sistema de Información para la Planificación Rural Agropecuaria, SIPRA</gmx:MimeFileType>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>El Sistema de Información para la Planificación Rural Agropecuaria, SIPRA, dispone de los productos y análisis de información que genera la UPRA, como soporte a la planificación rural agropecuaria.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download"/>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset"
+                                    codeSpace="ISOTC211/19115"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Capa generada en el sistema MAGNA-SIRGAS 2018 Origen Nacional - 9377.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                             codeListValue="notPlanned"
+                                             codeSpace="ISOTC211/19115"/>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>110311</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                           codeListValue="CO"
+                                           codeSpace="ISO3166-1"/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="author"
+                                   codeSpace="ISOTC211/19115"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Unidad de Planificación Rural Agropecuaria - UPRA</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>(+57) 310 801 6445</gco:CharacterString>
+                           </gmd:voice>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Carrera 10 No. 28-49 Torre A, pisos 11, 12 y 19</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>110311</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#Country"
+                                           codeListValue="CO"
+                                           codeSpace="ISO3166-1"/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>atencionalusuario@upra.gov.co</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact"
+                                   codeSpace="ISOTC211/19115"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmd:MD_Metadata>
